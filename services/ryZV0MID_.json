@@ -1,0 +1,99 @@
+{
+ "state": "DRFT",
+ "method": "GET",
+ "name": "SERV-1",
+ "endpoint": "/api/v1/validation",
+ "group": "assorted",
+ "vRules": {
+  "request": false,
+  "default": true,
+  "rules": true,
+  "proxy": false
+ },
+ "requests": {
+  "body": {
+   "required": false,
+   "schema": {},
+   "faker": {}
+  },
+  "paths": [],
+  "queries": [],
+  "headers": []
+ },
+ "rules": [
+  {
+   "id": 1548355554615,
+   "name": "default",
+   "active": true,
+   "method": "",
+   "primaryKey": "",
+   "stateful": false,
+   "rule": {},
+   "transform": {},
+   "requestValidation": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "preTransform": {
+    "body": {
+     "required": false,
+     "schema": {},
+     "faker": {}
+    },
+    "headers": [
+     {
+      "propKey": "Content-Type",
+      "propValue": "application/json",
+      "active": true
+     }
+    ],
+    "paths": [],
+    "queries": []
+   },
+   "responses": {
+    "respType": "static",
+    "svcCode": "s200",
+    "s200": {
+     "schema": {},
+     "faker": {},
+     "static": {},
+     "merge": {
+      "endpoints": []
+     }
+    }
+   },
+   "transType": "merge"
+  }
+ ],
+ "pairings": {
+  "static": {
+   "path": "",
+   "fileName": "",
+   "originalName": "",
+   "rows": -1,
+   "samples": []
+  }
+ },
+ "delay": 0,
+ "tags": [],
+ "references": [],
+ "_update": true,
+ "active": true,
+ "modifiedOn": 1619566121478,
+ "modifiedBy": "Nithya Priya Radha Krishnan",
+ "createdBy": "Nithya Priya Radha Krishnan",
+ "id": "ryZV0MID_",
+ "_endpoint": "/ryZV0MID_/get/api/v1/validation"
+}
