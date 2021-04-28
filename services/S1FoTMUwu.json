@@ -23,7 +23,7 @@
  "rules": [
   {
    "id": 1548355554615,
-   "name": "RULE-1",
+   "name": "Check save rule",
    "active": true,
    "method": "",
    "primaryKey": "",
@@ -68,7 +68,9 @@
     "s200": {
      "schema": {},
      "faker": {},
-     "static": {},
+     "static": {
+      "status": "success"
+     },
      "merge": {
       "endpoints": []
      }
@@ -87,11 +89,13 @@
   }
  },
  "delay": 0,
- "tags": [],
+ "tags": [
+  "assorted"
+ ],
  "references": [],
  "_update": true,
  "active": true,
- "modifiedOn": 1619565984697,
+ "modifiedOn": 1619653222113,
  "modifiedBy": "Nithya Priya Radha Krishnan",
  "createdBy": "Nithya Priya Radha Krishnan",
  "id": "S1FoTMUwu",
